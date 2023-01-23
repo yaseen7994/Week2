@@ -1,0 +1,1174 @@
+
+body{
+    padding: 0px;
+    margin: 0px ;
+    background-color: white;
+    font-family: sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header{
+    background-color: white;
+    border-bottom: 1px solid #fe8620;
+    position: fixed;
+    width: 100%;
+    height: 59px;
+    z-index: 3;
+
+}
+
+
+.hdr-logo{
+    width: 100%;
+    float: left;
+}
+
+.hdr-logo img{
+    width: 190px;
+}
+
+.menu{
+    width: 100%;
+    float: left;
+    
+
+}
+
+.menu ul{
+    width: 100%;
+    padding-left: 13px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    height: 40px;
+    transition: all 0.2s ease 0s;
+    padding-top: 19px;
+}
+.menu li a{
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: black;
+}
+
+.btn a{
+    font-size: 14px;
+    color: #ec1c2e;
+    margin: 0px;
+    
+}
+.btn{
+    border: 1px solid #d3d2d2;
+    border-radius: 3px;
+    /* float: right; */
+    padding: 2px 28px;
+}
+
+.sscrbe{
+    width: 100%;
+    padding: 15px 0px 0px 10px;
+}
+
+
+/* banner */
+.banner{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.banner1{
+    width: 100%;
+    float: left;
+    height: 100%;
+    background-color: #ec1c2e;
+}
+
+.banner-im{
+    width: 100%;
+    float: left;
+    height: 708px;
+    margin-top: 85px;
+    background-size: cover;
+    background-position: center;
+}
+
+.item{
+	width: 100%;
+	float: left;
+}
+
+/* close banner */
+
+/* open enqery */
+
+.enquery{
+    width: 100%;
+    float: left;
+    background-image: url(../images/findAstore.jpg);
+    height: 700px;
+    position: relative;
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.msge{
+    width: 100%;
+    display: flex;
+    height: 700px;
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.msge h1{
+    font-family: "GT Walsheim Pro Black",sans-serif;
+    font-size: 26px;
+    width: 100%;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #444;
+    margin-top: 99px;
+    margin-bottom: 2px;
+    float: left;
+}
+
+.msge h4{
+    font-family: "GT Walsheim Pro Black",sans-serif;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    float: left;
+    color: #444;
+    margin: 0px;
+    font-weight: 900;
+    margin-bottom: 78px;
+
+}
+
+.form-inpt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.model-inpt{
+    width: 21%;
+    float: left;
+    background-color: white;
+    height: 47px;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.model-btn{
+    width: 9%;
+    height:47px ;
+    background-color: #ec1c2e;
+    margin-left: 10px;
+    color:white;
+    border: 0px;
+    border-radius: 2px;
+}
+/* end .enquery */
+
+
+.spacing{
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    float: left;
+}
+
+/* open choicing */
+
+.choices{
+    width: 100%;
+    padding-bottom:  70px;
+    background-color: #ffc3fd;
+    float: left;
+}
+
+.hder-wth-line{
+    width: 100%;
+    padding: 150px 0px 80px 0;
+}
+
+.hder-wth-line h1{
+    font-family: "GT Walsheim Pro Black",sans-serif;
+    font-size: 25px;
+    display: flex;
+    color: #444;
+    text-align: center;
+    letter-spacing: -1px;
+    width: 100%;
+    font-weight: 900;
+    justify-content:  space-evenly;
+}
+
+.hder-wth-line h1::before{
+    -ms-flex-positive: 0.001;
+    flex-grow: 0.001;
+    height: 2px;
+    content: '\a0';
+    background-color: #444;
+    position: relative;
+    top: 17px;
+    width: 40%;
+    animation: headerLineExpand 1s linear 0.5s forwards;
+}
+
+.hder-wth-line h1::after{
+    -ms-flex-positive: 0.001;
+    flex-grow: 0.001;
+    height: 2px;
+    content: '\a0';
+    background-color: #444;
+    position: relative;
+    top: 17px;
+    width: 40%;
+    animation: headerLineExpand 1s linear 0.5s forwards;
+}
+
+.line{
+    width: 20%;
+    height: 1px;
+    background-color: #444;
+}
+
+.hder-wth-line p{
+    font-size: 14px;
+    float: left;
+    width: 100%;
+    color: #444;
+    font-weight: 500;
+    font-family: "GT Walsheim Pro Black",sans-serif;
+    text-align: center;
+    margin: 8px 0px 0px 0px;
+}
+
+.hder-wth-line a{
+    color: #ec1c2e;
+    text-decoration: underline;
+}
+
+.hder-wth-line a:hover{
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.tble{
+    width: 100%;
+    float: left;
+}
+
+.tble img{
+    width: 100%;
+    height: 501px;
+    float: left;
+    object-fit: cover;
+}
+
+.tble1{
+    width: 100%;
+    height: 239px;
+    margin-bottom: 21px;
+    float: left;
+}
+
+.tble1 img{
+    width: 100%;
+    height: 100%;
+    float: left;
+    object-fit: cover;
+}
+
+.bt-choic{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+.bt-choic :hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+
+}
+
+.find{
+    color: white;
+    background-color: #ec1c2e;
+    padding: 14px 17px;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+.contnt{
+    width: 100%;
+    float: left;
+    height: 700px;
+    background-size: cover;
+    background-position: 50% 0%;
+}
+
+.new-store{
+    width: 100%;
+    float: left;
+}
+
+.new-store p{
+    font-size: 19px;
+    float: left;
+    width: 100%;
+    line-height: 26px;
+    margin-top: 93px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-family: "GT Walsheim Pro Black",sans-serif;
+}
+
+.alhn-story{
+    width: 100%;
+    display: flex;
+    float: left;
+    justify-content: flex-end;
+}
+
+
+.sign{
+    width: 100%;
+    float: left;
+    height: 700px;
+    background-size: cover;
+    background-position: 50% 0%;
+}
+
+.get-sign{
+    width: 100%;
+    display: flex;
+    float: left;
+    padding-top: 89px;
+    padding-right: 141px;
+    justify-content: flex-end;
+}
+
+.new-hre{
+   
+    float: left;
+    border: 8px solid white;
+    padding: 53px 41px;
+}
+
+.new-hre p{
+    font-size: 19px;
+    float: left;
+    width: 100%;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-family: "GT Walsheim Pro Black",sans-serif;
+}
+
+.footer{
+    float: left;
+    width: 100%;
+    height: 350px;
+    padding: 50px 0px;
+    background-color: #d3d2d2;
+   
+}
+
+.foter-logo{
+    width: 100%;
+    float: left;
+    margin-top: 18px;
+}
+.foter-logo img{
+    width: 100%;
+    float: left;
+    height: 57px;
+}
+
+.socail{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    
+}
+.socail p{
+    width: 100%;
+    color: #444;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "GT Walsheim Pro Black",sans-serif;
+}
+
+.shading{
+       /* width: 14%; */
+       padding: 2px 7px;
+    /* height: 25px; */
+    color: #EFEBE3;
+    float: left;
+    font-size: 13px;
+    border-radius: 17px;
+    text-align: center;
+    margin-right: 14px;
+    background-color: black;
+}
+.shading:hover{
+    background-color: #ec1c2e;
+    transition: 0.5s;
+}
+
+.part2{
+    width: 100%;
+    float: left;
+    padding-left: 113px;
+}
+
+.part2 p{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 700;
+    color: #444;
+    margin-top: 10px;
+    font-family: "GT Walsheim Pro Black",sans-serif;
+}
+
+.part2 a{
+    font-size: 14px;
+    width: 100%;
+    float: left;
+    color: #666;
+    line-height: 22px;
+    text-decoration: none; 
+}
+
+.overlay {
+    width: 50%;
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 9999;
+top: 0;
+left: 0;
+background-color: rgb(0,0,0);
+background-color: #ec1c2e;
+overflow-x: hidden;
+transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    top: 16%;
+    /* text-align: center; */
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px 98px;
+    text-decoration: none;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "GT Walsheim Pro Black",sans-serif;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 0px;
+    left: -80px;
+    font-size: 50px;
+}
+
+.cli-btn{
+    position: absolute;
+    padding-top: 5px;
+    left: 0px;
+    color: white;
+}
+
+@media (max-width: 280px){
+
+    .sscrbe{
+        display: none;
+    }
+    
+.menu{
+    display: none;
+}
+
+.btn{
+    display: none;
+}
+
+.hdr-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hdr-logo img{
+    width: 122px;
+    margin-top: 11px;
+}
+.cli-btn{
+        /* float: right; */
+        position: absolute;
+        padding-top: 9px;
+        left: 20px;
+}
+
+.banner-im{
+    background-size: cover;
+    height: 275px;
+    margin-top: 60px;
+}
+
+
+
+.enquery{
+    height: 332px;
+   
+}
+
+.msge{
+    align-items: unset;
+    justify-content: unset;
+    height: 100%;
+}
+
+.msge h1{
+    font-family: "GT Walsheim Pro Black",sans-serif;
+    font-size: 25px;
+    letter-spacing: -1px;
+    margin-top: 109px;
+}
+
+.msge h4{
+    margin-bottom: 27px;
+    font-size: 14px;
+}
+
+.model-btn{
+    width: 22%;
+}
+
+.model-inpt{
+    width: 46%;
+}
+
+.hder-wth-line h1::before{
+    display: none;
+}
+
+.hder-wth-line h1::after{
+    display: none;
+}
+.hder-wth-line h1{
+    font-size:23px;
+    margin-bottom: 5px;
+}
+.hder-wth-line{
+    padding: 24px 0px 49px 0;
+}
+
+.tble{
+    margin-bottom: 20px;
+}
+
+.tble img{
+    height: 167px;
+    background-position: top;
+}
+
+.tble1{
+    background-size: cover;
+    object-fit: none;
+}
+
+.tble1{
+    height: 133px;
+}
+
+.bt-choic{
+    margin-top: 31px;
+}
+
+.choices{
+    padding-bottom: 53px;
+}
+
+.contnt{
+    height: 386px;
+    background-position: 43% 0%;
+}
+
+.new-store p{
+    margin-top: 34px;
+}
+.get-sign{
+     padding-top: 0px; 
+    padding-right: 0px;
+    
+}
+.new-hre{
+    padding: 37px 28px;
+    
+}
+.sign{
+    padding: 0px 28px 50px 28px;
+    background-position: 40%;
+    background-color: #4fb0d0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 46% 100%;
+    height: 463px;
+}
+
+.foter-logo{
+        width: auto;
+        float: left;
+        height: 57px;
+}
+.overlay a{
+    padding: 8px 32px;
+}
+
+.overlay .closebtn {
+    left: -1px;
+}
+
+.footer{
+    padding: 50px 29px;
+    height: 100%;
+}
+
+.socail p{
+    font-size: 17px;
+}
+
+.part2{
+    padding-left: 0px;
+}
+
+
+}
+
+@media (min-width: 281px) and (max-width: 575px){
+
+    .sscrbe{
+        display: none;
+    }
+
+.menu{
+    display: none;
+}
+
+.btn{
+    display: none;
+}
+
+.hdr-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hdr-logo img{
+    width: 122px;
+    margin-top: 11px;
+}
+.cli-btn{
+        /* float: right; */
+        position: absolute;
+        padding-top: 9px;
+        left: 20px;
+}
+
+.banner-im{
+    background-size: cover;
+    height: 398px;
+    margin-top: 60px;
+}
+
+
+
+
+
+.enquery{
+    height: 400px;
+    
+}
+
+.msge{
+    align-items: unset;
+    justify-content: unset;
+    height: 100%;
+}
+
+.msge h1{
+    font-family: "GT Walsheim Pro Black",sans-serif;
+    font-size: 29px;
+    letter-spacing: -1px;
+    margin-top: 148px;
+}
+
+.msge h4{
+    margin-bottom: 27px;
+}
+
+.model-btn{
+    width: 15%;
+}
+
+.model-inpt{
+    width: 30%;
+}
+
+.hder-wth-line h1::before{
+    display: none;
+}
+
+.hder-wth-line h1::after{
+    display: none;
+}
+.hder-wth-line h1{
+    font-size: 30px;
+}
+.hder-wth-line{
+    padding: 24px 0px 80px 0;
+}
+
+.tble{
+    margin-bottom: 20px;
+}
+
+.tble img{
+    height: 220px;
+    background-position: top;
+}
+
+.tble1{
+    background-size: cover;
+    object-fit: none;
+}
+
+.tble1{
+    height: 175px;
+}
+
+.bt-choic{
+    margin-top: 31px;
+}
+
+.choices{
+    padding-bottom: 53px;
+}
+
+.contnt{
+    height: 600px;
+    background-position: 43% 0%;
+}
+
+.new-store p{
+    margin-top: 34px;
+}
+.get-sign{
+     padding-top: 0px; 
+    padding-right: 0px;
+    
+}
+
+.sign{
+    padding: 0px 28px 50px 28px;
+    background-position: 40%;
+    background-color: #4fb0d0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 54% 100%;
+    
+    height: 100%;
+
+}
+
+.foter-logo{
+        width: auto;
+        float: left;
+        height: 57px;
+}
+
+.footer{
+    padding: 50px 29px;
+    height: 100%;
+}
+
+.socail p{
+    font-size: 17px;
+}
+
+.part2{
+    padding-left: 0px;
+}
+
+}
+
+@media (min-width: 575px) and (max-width: 767px){
+
+.cli-btn{
+        left: 12px;
+        padding-top: 10px;
+}
+.sscrbe{
+    display: none;
+}
+
+.hdr-logo{
+    width: 100%;
+    display: flex;
+    float: left;
+    justify-content: space-around;
+}
+
+.hdr-logo img{
+    width: 118px;
+    margin-top: 12px;
+}
+
+.menu{
+    display: none;
+}
+.btn{
+    display: none;
+}
+
+.banner-im{
+    height: 397px;
+    background-size: cover;
+    margin-top: 61px;
+}
+
+
+
+.enquery{
+    height: 400px;
+ 
+}
+
+
+.msge{
+    align-items: unset;
+    justify-content: unset;
+    height: 100%;
+}
+
+.msge h1{
+      font-size: 29px;
+    font-weight: 900;
+    margin-top: 147px;
+}
+
+.msge h4{
+    font-size: 17px;
+    margin-bottom: 27px;
+}
+
+.model-inpt{
+    width: 33%;
+}
+
+.model-btn{
+    width: 16%;
+}
+
+
+.hder-wth-line h1::before{
+    display: none;
+}
+
+.hder-wth-line h1::after{
+    display: none;
+}
+
+.hder-wth-line {
+    padding: 26px 0px 80px 0;
+}
+
+.hder-wth-line h1{
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+.new-store p{
+    margin-top: 48px;
+}
+
+.get-sign{
+    padding-top: 0px;
+     padding-right: 0px;
+
+}
+
+.tble img{
+        /* margin-top: 20px; */
+        width: 96%;
+        height: 300px;
+        float: left;
+        object-fit: cover;
+}
+
+.tble{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contnt{
+    height: 603px;
+    background-size: cover;
+    background-position: 43% 0%;
+}
+
+.sign{
+    height: 473px;
+    padding: 0px 36px;
+    background-position: 55% 0%;
+
+}
+.foter-logo{
+    width: 34%;
+    float: left;
+    height: 50px;
+}
+
+.footer{
+    
+    padding: 50px 18px;
+    height: 100%;
+
+}
+
+.part2{
+    padding-left: 10px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+.cli-btn{
+ display: none;
+}
+
+.hdr-logo{
+    width: 129%;
+    float: left;
+    height: 59px;
+    background: #ec1c2e;
+}
+
+.hdr-logo img{
+    width: 115px;
+}
+.banner-im{  
+    height: 500px;
+    background-size: cover;
+    margin-top: 59px;
+    background-position: center;
+}
+
+
+
+.enquery{
+    height: 599px;
+    
+}
+
+.msge h1{
+    margin-top: 47px;
+}
+
+.model-inpt{
+    width: 24%;
+}
+
+.model-btn{
+    width: 12%;
+}
+
+.hder-wth-line h1::after{
+    width: 35% ;
+    top: 15px;
+}
+
+.hder-wth-line h1::before{ 
+    width: 35%;
+    top: 15px;
+}
+
+.tble img{
+    height: 314px;
+
+}
+
+
+
+.tble1{
+    height: 146px;
+}
+
+.tbl1 img{
+    background-size: cover;
+}
+
+.contnt{
+    height: 601px;
+}
+
+.get-sign{
+    padding-top: 47px;
+    padding-right: 52px;
+}
+
+.footer{
+    position: relative;
+    z-index: 999;
+}
+
+.part2{
+    padding-left: 18px;
+}
+
+.foter-logo img{
+    height: 51px;
+}
+
+.socail p{
+    font-size: 14px;
+}
+
+.shading{
+        font-size: 10px;
+        padding: 2px 4px;
+        margin-right: 7px;
+        background-color: black;
+}
+
+}
+
+@media (min-width: 991px) and (max-width: 1199px){
+
+    .cli-btn{
+        display: none;
+    }
+
+    .hdr-logo img{
+        width:160px;
+    }
+
+    .hdr-logo{
+        width: 126%;
+        background: #ec1c2e;
+        height: 59px;
+    }
+
+    .banner-im {
+        height: 550px;
+        background-size: cover;
+        margin-top: 61px;
+    }
+
+
+
+    .enquery{
+        height: 599px;
+    }
+
+    .msge h1{
+        margin-top: 47px;
+    }
+
+    .hder-wth-line h1::after{
+        width: 38%;
+    }
+
+    .hder-wth-line h1::before{
+        width: 38%;
+    }
+
+    .tble1{
+        height: 201px;
+    }
+
+    .tble img{
+    height: 423px;
+    }
+    .part2{
+        padding-left: 85px;
+    }
+
+    .foter-logo img{
+        height: 47px;
+    }
+
+    .socail p{
+        font-size: 16px;
+    }
+
+    .shading{
+        margin-right: 8px;
+    }
+}
+
+@media (max-width:767px) {
+    .cli-btn{
+        /* float: right; */
+      
+        color: darkGrey !important;
+        
+   
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
